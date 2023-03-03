@@ -34,7 +34,6 @@ function App() {
       />
       <p>{text}</p>
       <br />
-      <br />
       <button 
         onClick={onClickOpen}
       >表示</button>
