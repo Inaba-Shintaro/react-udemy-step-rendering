@@ -14,10 +14,10 @@ function App() {
   //テキスト変更
   const onChangeText = (e) => setText(e.target.value);
 
-  //Child Area とぐる
+  //Child Area open
   const onClickOpen = () => setOpen(!open);
   
-  //Child Area 閉じる
+  //Child Area close
   //callback
   const onClickClose = useCallback(() => setOpen(false),[open]);
 
