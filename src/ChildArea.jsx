@@ -12,7 +12,7 @@ export const ChildArea = memo((props) => {
   //propsの受けとり
   const { open, onClickClose } = props;
 
-  console.log('ChildAreaがレンダリングされた');
+  console.log('ChildAreaがレンダリングされたよ');
 
   const data = [...Array(2000).keys()];
   data.forEach(() => {
